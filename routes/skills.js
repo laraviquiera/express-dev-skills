@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const todosCtrl = require('../controllers/skills');
+const skillsCtrl = require('../controllers/skills');
 
 
 router.get('/', skillsCtrl.index);
