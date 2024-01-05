@@ -9,12 +9,24 @@ h1 {
   text-align: center;
 }
 
-
 a {
   color: #932F6D;
   font-size: larger;
-}
+} */
 
 body .list {
   text-align: justify;
+}
+
+body .delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+body .delete-form button {
+  color: red;
+}
+	
+li {
+  list-style: none;
 }
